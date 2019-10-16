@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yujin's Page</title>
+        <meta charset="utf-8" />
+    
+
+    </head>
+    <body>
+
+        <style>body{background-color: rgb(255, 192, 203);}</style>
+            
+            <style>@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Roboto+Mono&display=swap');
+                
+               a:link{ color :white;    text-decoration: none;  background-color:rgb(150, 44, 88); padding: 20px;}
+         a:visited{ color :rgb(255, 255, 255); }
+         /* background-color: */
+         a:hover{ color : rgb(170, 47, 109); font-size: 35px; background-color:rgb(255, 255, 255); padding: 25px;}
+         a:active{ color: yellow;}
+         
+         #link_target{
+             font-family: 'Black Han Sans', sans-serif;
+                    font-size: 50px;  
+         }
+               
+ </style> 
+ 
+ 
+ <div id="link_target">  <a href="yujinhome.html">홈화면</a> <a href="yujin.html">카페 어디가지?</a>
+     <a href="yujin2.html">오늘 뭐먹지?</a> <a href="yujin3.html">더 알아보기</a><a href="yujin4.html">느낀점</a> <br><br>
+
+     <audio controls> <!-- controls 조작버튼-->
+    
+        <source src="./media/good.mp3" type="audio/mpeg">
+
+            </audio>
+
+     
+     <style>
+            body{background-color: rgb(255, 192, 203);}
+
+        </style>
+           
+           <style>
+               @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Roboto+Mono&display=swap');
+            #font_target{
+           font-family:  'Black Han Sans', fantasy ;
+           font-size: 70px;  
+           color: rgb(0, 0, 0);
+           text-align:center;
+            } </style>
+        
+
+           <div id="font_target">오늘 , 뭐먹지?<br><br> 
+            <img src="./images/팔덕식당.jpg"  width="450px" height="450px"/>
+            <img src="./images/팔덕식당2.jpg"  width="550px" height="450px"/><br>
+
+            팔덕식당</div>
+
+            <style>
+                    @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Roboto+Mono&display=swap');
+                 #font_target2{
+                font-family:  'Noto Sans KR', sans-serif;
+                font-size: 40px;  
+                color: rgb(24, 22, 22);
+                text-align:center;
+                 } </style>
+
+                 <div id="font_target2">평상시 매운걸 잘 드시나요?
+                <h6>밥도둑 매콤한 등촌등갈비! 범계역에 위치한 팔덕식당은 <br>
+            대기손님을 위한 공간을 마련까지 할 정도로 사람이 많아요!
+        <br> 흔하지 않은 곤드래밥 까지 같이 먹음으로써 만족도 UP!</h6></div>
+        <style>
+                #myCanvas {
+                    width: 300px;
+                   height: 150px;
+                   
+                                    margin-left: 510PX;
+                                    margin-right: 100PX;
+                   /* 기본사이즈 300*150 */
+                }
+            </style>
+      
+            <canvas id="myCanvas">
+                
+            </canvas>
+            <script>
+            var canvas = document.getElementById("myCanvas");
+            /* canvas 라는 변수를 만들어서 myCanvas를 담음 */
+            var ctx = canvas.getContext("2d");
+        
+      
+     
+      
+      ctx.beginPath();
+      ctx.arc(225, 75, 50, 0, Math.PI * 2, true); // Outer circle 
+      ctx.moveTo(260, 75);
+      ctx.arc(225, 75, 35, 0, Math.PI, false);  // Mouth (clockwise)
+      ctx.moveTo(215, 65);
+      ctx.arc(210, 65, 5, 0, Math.PI * 2, true);  // Left eye
+      ctx.moveTo(245, 65);
+      ctx.arc(240, 65, 5, 0, Math.PI * 2, true);  // Right eye
+      ctx.stroke(); 
+            </script><br>
+            <div id="font_target2"><h4>좀 더 자세히 보기 위해서는 설명이 아닌 영상이 좋겠죠?</h4>
+            <video width="720px" height="500px" 
+            controls >
+                    <source src="./media/팔덕식당.mp4" type="video/mp4" />
+                </video>
+            </div>
+
+            
+
+
+     
+ 
+
+
+ </body>
+    </html>
