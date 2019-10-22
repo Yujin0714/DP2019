@@ -6,21 +6,30 @@
     
 
     </head>
+
+
+
     <body>
 
-        <style>body{background-color: rgb(255, 192, 203);}</style>
+        
             
             <style>@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Roboto+Mono&display=swap');
                 
+
                a:link{ color :white;    text-decoration: none;  background-color:rgb(150, 44, 88); padding: 20px;}
          a:visited{ color :rgb(255, 255, 255); }
          /* background-color: */
          a:hover{ color : rgb(170, 47, 109); font-size: 35px; background-color:rgb(255, 255, 255); padding: 25px;}
          a:active{ color: yellow;}
+         a:focus{ color : green;}
+
+         body{background-color: rgb(22, 21, 21);}
+           
          
          #link_target{
              font-family: 'Black Han Sans', sans-serif;
-                    font-size: 50px;  
+                    font-size: 50px; 
+                     
          }
                
  </style> 
@@ -35,9 +44,15 @@
 
             </audio>
 
+
+            <style>
+                body{background-color: rgb(29, 27, 27);}
+            </style>
+               
+
      
      <style>
-            body{background-color: rgb(255, 192, 203);}
+            body{background-color: rgb(255, 198, 208);}
 
         </style>
            
@@ -62,7 +77,7 @@
                  #font_target2{
                 font-family:  'Noto Sans KR', sans-serif;
                 font-size: 40px;  
-                color: rgb(24, 22, 22);
+                color: rgb(0, 0, 0);
                 text-align:center;
                  } </style>
 
@@ -86,21 +101,24 @@
             </canvas>
             <script>
             var canvas = document.getElementById("myCanvas");
-            /* canvas 라는 변수를 만들어서 myCanvas를 담음 */
+            
             var ctx = canvas.getContext("2d");
         
       
      
       
       ctx.beginPath();
-      ctx.arc(225, 75, 50, 0, Math.PI * 2, true); // Outer circle 
+      ctx.arc(225, 75, 50, 0, Math.PI * 2, true);  
       ctx.moveTo(260, 75);
-      ctx.arc(225, 75, 35, 0, Math.PI, false);  // Mouth (clockwise)
+      ctx.arc(225, 75, 35, 0, Math.PI, false);  
       ctx.moveTo(215, 65);
-      ctx.arc(210, 65, 5, 0, Math.PI * 2, true);  // Left eye
+      ctx.arc(210, 65, 5, 0, Math.PI * 2, true);  
       ctx.moveTo(245, 65);
-      ctx.arc(240, 65, 5, 0, Math.PI * 2, true);  // Right eye
+      ctx.arc(240, 65, 5, 0, Math.PI * 2, true);  
       ctx.stroke(); 
+      ctx.fillStyle = "#ffffff";
+      ctx.fill(); //내부 채우기
+     
             </script><br>
             <div id="font_target2"><h4>좀 더 자세히 보기 위해서는 설명이 아닌 영상이 좋겠죠?</h4>
             <video width="720px" height="500px" 
@@ -116,7 +134,7 @@
                  #font_target3{
                 font-family:  'Noto Sans KR', sans-serif;
                 font-size: 20px;  
-                color: rgb(24, 22, 22);
+                color: rgb(0, 0, 0);
                 text-align:center;
                  } </style>
 
