@@ -20,6 +20,9 @@
             header>ul>li:nth-child(5){
                 border: none; /*경계선 :없음 */  /* 클래스는 마침표로 시작 아이디를 가지고 있는건 #으로 시작 */
             }
+            header{
+                padding: 10px 50px;
+            }
             header>ul{
                 margin: 11px;
             }
@@ -55,7 +58,8 @@
                 margin: 8px;
             }
             nav{
-                background-color:#ddd
+                background-color:#ddd;
+                padding: 10px 50px;
             }
             #content>div:nth-child(1){
                 background-color:#98f;
@@ -90,7 +94,60 @@
                     margin-left: auto; /* 가변값 */
                     margin-right: auto; /* 가변값 */
                 
+                    padding: 100px 0px;
+                
                 }
+                
+
+
+
+
+                footer{
+                    background-color: #555;
+                    color: #ccc;
+                    padding: 10px 50px;
+                }
+                footer>div>ul>li{
+                    float:left;
+                    list-style: none;
+                    padding: 0px 10px; /* 상하 좌우 */
+                    border-right: solid 2px gray;
+                }
+                footer>div>ul>li:nth-child(6){
+                    border: none;
+                }
+                footer>div>ul{
+                    padding:0px;
+                }
+                footer>ul>li{
+                    float: left;
+                    list-style: none;
+                    padding: 0px 10px;
+
+
+                }
+                footer>ul{
+                    padding:0px;
+                }
+                #footer_left{
+                    float: left;
+                
+                }
+                #footer_right{
+                    float: right;
+                }
+                #wrap{
+                    /*width: 1200px; /*고정값*/
+                    min-width: 1100px;
+                    max-width: 1920px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                }
+                body{
+                    margin: 0px;
+                }
+
                 
                 
                 
@@ -281,7 +338,35 @@
                     </section>
                 </div>
             </div>
-            <footer>footer</footer>
-        </div>
+            <footer>
+                <div id="footer_left">
+                    <ul>
+                        <li>home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Work</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                        <div class="clear"></div>
+                    </ul>
+                    <div id="copyright">ⓒ 2013 BlueBox. All Right Reserved.</div>
+
+                    <div id="info">the loges in the design are the property of 
+            their respective owners/copyright holders.</div>
+                </div>
+
+                <ul id="footer_right">
+                    <li><img src="images/layout1_footer_icon1.png" /></li>
+                    <li><img src="images/layout1_footer_icon2.png" /></li>
+                    <li><img src="images/layout1_footer_icon3.png" /></li>
+                    <li><img src="images/layout1_footer_icon4.png" /></li>
+                    <li><img src="images/layout1_footer_icon5.png" /></li>
+                    <li><img src="images/layout1_footer_icon6.png" /></li>
+                    <div class="clear"></div>
+                
+                </ul>
+                <div class="clear"></div>
+            </footer>
+        
     </body>
 </html>
