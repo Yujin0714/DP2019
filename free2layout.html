@@ -5,7 +5,6 @@
         <meta charset="utf-8" />
         <style>
             header,div,nav,footer,ul,li,h1,h2,h3{
-            
                 /* border: solid 1px black; /* 경계선 긋기 */
                 /* margin: 10px; /* 서로간에 여유공간 만들기 */
             }
@@ -15,20 +14,14 @@
                 padding-left: 10px; /* 내부여백 - 왼쪽 : 10px */
                 padding-right: 10px; /* 내부여백 - 오른쪽 : 10px * (바깥여백은 margin) */
                 border-right: solid 1px rgb(87, 87, 87);
-                font-family:'Black Han Sans', sans-serif;
-                
-                
                 /* 경계선: 실선 1px 두께 회색 */
 
-        
-
             }
-            header>ul>li:nth-child(6){
+            header>ul>li:nth-child(5){
                 border: none; /*경계선 :없음 */  /* 클래스는 마침표로 시작 아이디를 가지고 있는건 #으로 시작 */
             }
             header{
                 padding: 10px 50px;
-            
             }
             header>ul{
                 margin: 11px;
@@ -39,12 +32,6 @@
             }
             header>h1{
                 margin: 0px;
-            }
-            header>ul>li>a{
-                text-decoration: none;
-                color:rgb(87, 87, 87)
-                
-                
             }
             .clear{
                 clear: both; /* 지우다: 양쪽 */
@@ -75,7 +62,7 @@
                 padding: 10px 50px;
             }
             #content>div:nth-child(1){
-                background-color:rgb(211, 142, 218);
+                background-color:#98f;
                  }
                 
                 #content>div:nth-child(2){
@@ -110,18 +97,13 @@
                     padding: 100px 0px;
                 
                 }
-                #head1 {
-
-                    background-color: rgb(248, 225, 225);
-                }
-               
                 
 
 
 
 
                 footer{
-                    background-color: rgb(75, 58, 58);
+                    background-color: #555;
                     color: #ccc;
                     padding: 10px 50px;
                 }
@@ -165,7 +147,6 @@
                 body{
                     margin: 0px;
                 }
-                
 
                 
                 
@@ -177,38 +158,17 @@
         </style>
     </head>
     <body>
-        <header id="head1">
-
-                <h1 class="float_left">
-                        <img src="images/yujinlogo.png" />
-                    </h1>
-                    <ul class="float_left">
-                            <li><a href="index.html">INDEX</li>
-                                <li><a href="layout1.html">Layout1</a></li>
-                                <li><a href="layout2.html">Layout2</a></li>
-                                <li><a href="layout3.html">Layout3</a></li>
-                                <li><a href="freelayout.html">BillyAngle</a></li>
-                        <div class="clear"></div>
-                    </ul>
-                    <!-- gunug@naver.com-->
-                    <div id="zoom" class="float_right">
-                        
-                    </div>
-                    <div class="clear"></div> <!-- float left 해제-->
-                
-
-        </header><br><br><br><br><br><br><br><br><br><br>
         <div id="wrap">
             <header>
                 <h1 class="float_left">
                     <img src="images/layout1_head_logo.jpg" />
                 </h1>
                 <ul class="float_left">
-                    <li>ABOUT</li>
-                    <li>SERVIECES</li>
-                    <li>WORKS</li>
-                    <li>BLOG</li>
-                    <li>CONTACT US</li>
+                    <li><a href="training.html">INDEX</li>
+                    <li><a href="layout1.html">Layout1</li>
+                    <li><a href="layout2.html">Layout2</li>
+                    <li><a href="layout3.html">Layout3</li>
+                    <li><a href="training.html">FREE</li>
                     <div class="clear"></div>
                 </ul>
                 <!-- gunug@naver.com-->
@@ -220,18 +180,17 @@
             <nav>
                 <h2 class="float_left">See Our Works</h2>
                 <ul class="float_right">
-                    <li><a href="#sec1">Web Design</a></li>
-                    <li><a href="#sec2">Icons</a></li>
-                    <li><a href="#sec3">Illustration</a></li>
-                    <li><a href="#sec4">Misc</a></li>
-                    
+                    <li><a href="training.html">About</a></li>
+                    <li>Icons</li>
+                    <li>Illustration</li>
+                    <li>Misc</li>
                     <div class="clear"></div> <!-- cloat left 해제-->
                 </ul>
                 <div class="clear"></div>
             </nav>
             <div id="content">
                 <div>
-                    <section id="sec1">
+                    <section>
                         <!-- 파란박스 부분 -->
                         <h3> Web Design</h3>
                         <div class="content_part">
@@ -268,9 +227,9 @@
                     </section>
                 </div>
                 <div>
-                        <section id="sec2">
+                    <section>
                         <!-- 파란박스 부분 -->
-                        <h3> Icons</h3>
+                        <h3> Web Design</h3>
                         <div class="content_part">
                             <!-- 왼편 부분 -->
                             <img src="images/layout1_img3.jpg" />
@@ -305,9 +264,9 @@
                     </section>
                 </div>
                 <div>
-                    <section id="sec3">
+                    <section>
                         <!-- 파란박스 부분 -->
-                        <h3> Illustration</h3>
+                        <h3> Web Design</h3>
                         <div class="content_part">
                             <!-- 왼편 부분 -->
                             <img src="images/layout1_img5.jpg" />
@@ -342,9 +301,9 @@
                     </section>
                 </div>
                 <div>
-                    <section id="sec4">
+                    <section>
                         <!-- 파란박스 부분 -->
-                        <h3> Misc</h3>
+                        <h3> Web Design</h3>
                         <div class="content_part">
                             <!-- 왼편 부분 -->
                             <img src="images/layout1_img7.jpg" />
@@ -382,18 +341,18 @@
             <footer>
                 <div id="footer_left">
                     <ul>
-                        <li>Index</li>
-                        <li>layout1</li>
-                        <li>layout2</li>
-                        <li>layout3</li>
-                        <li>billyangle</li>
+                        <li>home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Work</li>
+                        <li>Blog</li>
                         <li>Contact</li>
                         <div class="clear"></div>
                     </ul>
-                    <div id="copyright">21961021 김유진 콘텐츠 프로그래밍 기말 프로젝트.</div>
+                    <div id="copyright">ⓒ 2013 BlueBox. All Right Reserved.</div>
 
-                    <div id="info">빌리엔젤의 신선하고 깨끗하고 정직한 프로젝트에 참여하세요 
-                         달콤한 빌리엔젤 케이크를 맛보세요 .</div>
+                    <div id="info">the loges in the design are the property of 
+            their respective owners/copyright holders.</div>
                 </div>
 
                 <ul id="footer_right">

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>layout1</title>
+        <title>21961021 김유진 BillyAngle</title>
         <meta charset="utf-8" />
         <style>
             header,div,nav,footer,ul,li,h1,h2,h3{
-            
                 /* border: solid 1px black; /* 경계선 긋기 */
                 /* margin: 10px; /* 서로간에 여유공간 만들기 */
             }
@@ -16,35 +15,31 @@
                 padding-right: 10px; /* 내부여백 - 오른쪽 : 10px * (바깥여백은 margin) */
                 border-right: solid 1px rgb(87, 87, 87);
                 font-family:'Black Han Sans', sans-serif;
-                
-                
+                font-size: 20px;
                 /* 경계선: 실선 1px 두께 회색 */
 
-        
-
             }
-            header>ul>li:nth-child(6){
+            header>ul>li:nth-child(5){
                 border: none; /*경계선 :없음 */  /* 클래스는 마침표로 시작 아이디를 가지고 있는건 #으로 시작 */
             }
             header{
                 padding: 10px 50px;
-            
+                background-color: rgb(255, 226, 226);
+            }
+            header>ul>li>a {
+                text-decoration: none;
+                color: rgb(97, 72, 72);
             }
             header>ul{
                 margin: 11px;
             }
+            
             #zoom{     
                 margin: 9px;                                       
 
             }
             header>h1{
                 margin: 0px;
-            }
-            header>ul>li>a{
-                text-decoration: none;
-                color:rgb(87, 87, 87)
-                
-                
             }
             .clear{
                 clear: both; /* 지우다: 양쪽 */
@@ -62,30 +57,35 @@
                 list-style: none;
                 padding-left: 10px;
                 padding-right: 10px;
+                
 
             }
             nav>h2{
                 margin: 0px;
+                color: white;
             }
             nav>ul{
                 margin: 8px;
             }
+            nav>ul>li>a{
+                color:white;
+            }
             nav{
-                background-color:#ddd;
+                background-color:rgb(78, 62, 62);
                 padding: 10px 50px;
             }
             #content>div:nth-child(1){
-                background-color:rgb(211, 142, 218);
+                background-color:rgb(255, 255, 255);
                  }
                 
                 #content>div:nth-child(2){
-                background-color:#5d9; 
+                background-color:rgb(255, 255, 255); 
                 }
                 #content>div:nth-child(3){
-                background-color:#f76;
+                background-color:rgb(255, 255, 255);
                 }
                 #content>div:nth-child(4){
-                background-color:#ec5;
+                background-color:rgb(255, 255, 255);
                 }
                 .content_part{
                     float:left;
@@ -93,10 +93,13 @@
                     margin: 20px;
                 }
                 #content h3{
-                    color: white;
+                    color: rgb(36, 19, 19);
+                    
                 }
                 #content dt{
                     font-weight: bold; /* 글씨두께 : 두껍게 */
+                    font-size:20px;
+                    color:rgb(77, 59, 57);
                 }
                 #content dd{
                     margin: 0px;
@@ -110,18 +113,17 @@
                     padding: 100px 0px;
                 
                 }
-                #head1 {
-
-                    background-color: rgb(248, 225, 225);
+                #content h3{
+                    color:rgb(189, 118, 111);
+                    font-size:30px;
                 }
-               
                 
 
 
 
 
                 footer{
-                    background-color: rgb(75, 58, 58);
+                    background-color: #555;
                     color: #ccc;
                     padding: 10px 50px;
                 }
@@ -165,7 +167,27 @@
                 body{
                     margin: 0px;
                 }
-                
+                nav>ul>li>a{
+                    text-decoration: none;
+                }
+                #billy{
+                    text-align: center;
+
+                }
+                #billy h1 {
+                    color:rgb(255, 132, 132);
+                    font-size: 40px;
+                    
+                }
+                #content h1{
+                    text-align: center;
+                    font-size: 40px;
+                    color:rgb(255, 132, 132);
+                }
+                #billy h2{
+                    font-size: 20px;
+                    color:rgb(255, 147, 147);
+                }
 
                 
                 
@@ -177,66 +199,106 @@
         </style>
     </head>
     <body>
-        <header id="head1">
 
-                <h1 class="float_left">
-                        <img src="images/yujinlogo.png" />
-                    </h1>
-                    <ul class="float_left">
-                            <li><a href="index.html">INDEX</li>
-                                <li><a href="layout1.html">Layout1</a></li>
-                                <li><a href="layout2.html">Layout2</a></li>
-                                <li><a href="layout3.html">Layout3</a></li>
-                                <li><a href="freelayout.html">BillyAngle</a></li>
-                        <div class="clear"></div>
-                    </ul>
-                    <!-- gunug@naver.com-->
-                    <div id="zoom" class="float_right">
-                        
-                    </div>
-                    <div class="clear"></div> <!-- float left 해제-->
-                
-
-        </header><br><br><br><br><br><br><br><br><br><br>
+       .
         <div id="wrap">
             <header>
                 <h1 class="float_left">
-                    <img src="images/layout1_head_logo.jpg" />
+                    <img src="images/yujinlogo.png" />
                 </h1>
-                <ul class="float_left">
-                    <li>ABOUT</li>
-                    <li>SERVIECES</li>
-                    <li>WORKS</li>
-                    <li>BLOG</li>
-                    <li>CONTACT US</li>
-                    <div class="clear"></div>
+                
+                <ul class="float_right">
+                    <li><a href="index.html">INDEX</a></li>
+                    <li><a href="layout1.html">layout1</a></li>
+                    <li><a href="layout2.html">layout2</a></li>
+                    <li><a href="layout3.html">layout3</a></li>
+                    <li><a href="freelayout.html">free</a></li>
+                    <div class="clear"></div> <!-- cloat left 해제-->
                 </ul>
+                <div class="clear"></div>
+               
                 <!-- gunug@naver.com-->
                 <div id="zoom" class="float_right">
-                    <img src="images/layout1_head_zoom.jpg" />
+                   
                 </div>
                 <div class="clear"></div> <!-- float left 해제-->
             </header>
             <nav>
-                <h2 class="float_left">See Our Works</h2>
-                <ul class="float_right">
-                    <li><a href="#sec1">Web Design</a></li>
-                    <li><a href="#sec2">Icons</a></li>
-                    <li><a href="#sec3">Illustration</a></li>
-                    <li><a href="#sec4">Misc</a></li>
-                    
-                    <div class="clear"></div> <!-- cloat left 해제-->
-                </ul>
-                <div class="clear"></div>
-            </nav>
+                    <h2 class="float_left">BillyAngle , 지금 만나보세요.</h2>
+                    <ul class="float_right">
+                        <li><a href="#sec1">Brand</a></li>
+                        <li><a href="#sec2">Cake</a></li>
+                        <li><a href="#sec3">Illustration</a></li>
+                        <li><a href="#sec4">Misc</a></li>
+                        
+                        <div class="clear"></div> <!-- cloat left 해제-->
+                    </ul>
+                    <div class="clear"></div>
+                </nav> 
+
+                <div id="billy">
+                    <div>
+                        <section id="sec1">
+
+                                <h3>Billy Angle Brand</h3><br>
+                                <h1>빌리엔젤은 감성을 판매합니다.</h1><br>
+                                <img src="images/brand1.png" /><br><br>
+                                <h2>BILLY ANGEL CAKE COMPANY <br>
+                                </h2>
+
+
+                                
+
+                        </section>
+
+
+
+                    </div>
+                </div>
+           
             <div id="content">
+                <div>
+                    <section id="sec2">
+                        <!-- 파란박스 부분 -->
+                        <h1>Cake</h1>
+                        <h3> 빌리엔젤 Best 메뉴</h3>
+                        <div class="content_part">
+                            <!-- 왼편 부분 -->
+                            <img src="images/cake6.jpg" />
+                            <dl>
+                                <dt>Banana Coconut Cake ( 7,300 )</7></dt><br>
+                                <dd>
+                                        바나나와 코코넛, 그리고 우유 크림의 단맛이 적절하게<br>
+                                        조화를 이룬  빌리엔젤만의 차별화된 <br>
+                                        달콤함을 즐길 수 있는 케이크.
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <!-- 오른편 부분 -->
+                            <img src="images/cake5.jpg" />
+                            <dl>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>
+                                    Consectetur adipiscing elit. 
+                                    Suspendisse sed leo tellus. 
+                                    Praesent nec vehicula ligula, 
+                                    non laoreet ligula. Maecenas 
+                                    at massa eget orci porttitor 
+                                    semper.
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                </div>
                 <div>
                     <section id="sec1">
                         <!-- 파란박스 부분 -->
                         <h3> Web Design</h3>
                         <div class="content_part">
                             <!-- 왼편 부분 -->
-                            <img src="images/layout1_img1.jpg" />
+                            <img src="images/cake8.jpg" />
                             <dl>
                                 <dt>Lorem ipsum dolor sit amet</dt>
                                 <dd>
@@ -251,7 +313,7 @@
                         </div>
                         <div class="content_part">
                             <!-- 오른편 부분 -->
-                            <img src="images/layout1_img2.jpg" />
+                            <img src="images/cake4.jpg" />
                             <dl>
                                 <dt>Lorem ipsum dolor sit amet</dt>
                                 <dd>
@@ -268,12 +330,12 @@
                     </section>
                 </div>
                 <div>
-                        <section id="sec2">
+                    <section>
                         <!-- 파란박스 부분 -->
-                        <h3> Icons</h3>
+                        <h3> Web Design</h3>
                         <div class="content_part">
                             <!-- 왼편 부분 -->
-                            <img src="images/layout1_img3.jpg" />
+                            <img src="images/cake1.jpg" />
                             <dl>
                                 <dt>Lorem ipsum dolor sit amet</dt>
                                 <dd>
@@ -288,7 +350,7 @@
                         </div>
                         <div class="content_part">
                             <!-- 오른편 부분 -->
-                            <img src="images/layout1_img4.jpg" />
+                            <img src="images/cake2.jpg" />
                             <dl>
                                 <dt>Lorem ipsum dolor sit amet</dt>
                                 <dd>
@@ -305,12 +367,12 @@
                     </section>
                 </div>
                 <div>
-                    <section id="sec3">
+                    <section>
                         <!-- 파란박스 부분 -->
-                        <h3> Illustration</h3>
+                        <h3> Web Design</h3>
                         <div class="content_part">
                             <!-- 왼편 부분 -->
-                            <img src="images/layout1_img5.jpg" />
+                            <img src="images/cake3.jpg" />
                             <dl>
                                 <dt>Lorem ipsum dolor sit amet</dt>
                                 <dd>
@@ -325,44 +387,7 @@
                         </div>
                         <div class="content_part">
                             <!-- 오른편 부분 -->
-                            <img src="images/layout1_img6.jpg" />
-                            <dl>
-                                <dt>Lorem ipsum dolor sit amet</dt>
-                                <dd>
-                                    Consectetur adipiscing elit. 
-                                    Suspendisse sed leo tellus. 
-                                    Praesent nec vehicula ligula, 
-                                    non laoreet ligula. Maecenas 
-                                    at massa eget orci porttitor 
-                                    semper.
-                                </dd>
-                            </dl>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                </div>
-                <div>
-                    <section id="sec4">
-                        <!-- 파란박스 부분 -->
-                        <h3> Misc</h3>
-                        <div class="content_part">
-                            <!-- 왼편 부분 -->
-                            <img src="images/layout1_img7.jpg" />
-                            <dl>
-                                <dt>Lorem ipsum dolor sit amet</dt>
-                                <dd>
-                                    Consectetur adipiscing elit. 
-                                    Suspendisse sed leo tellus. 
-                                    Praesent nec vehicula ligula, 
-                                    non laoreet ligula. Maecenas 
-                                    at massa eget orci porttitor 
-                                    semper.
-                                </dd>
-                            </dl>
-                        </div>
-                        <div class="content_part">
-                            <!-- 오른편 부분 -->
-                            <img src="images/layout1_img8.jpg" />
+                            <img src="images/cake11.jpg" />
                             <dl>
                                 <dt>Lorem ipsum dolor sit amet</dt>
                                 <dd>
@@ -382,18 +407,18 @@
             <footer>
                 <div id="footer_left">
                     <ul>
-                        <li>Index</li>
-                        <li>layout1</li>
-                        <li>layout2</li>
-                        <li>layout3</li>
-                        <li>billyangle</li>
+                        <li>home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Work</li>
+                        <li>Blog</li>
                         <li>Contact</li>
                         <div class="clear"></div>
                     </ul>
-                    <div id="copyright">21961021 김유진 콘텐츠 프로그래밍 기말 프로젝트.</div>
+                    <div id="copyright">ⓒ 2013 BlueBox. All Right Reserved.</div>
 
-                    <div id="info">빌리엔젤의 신선하고 깨끗하고 정직한 프로젝트에 참여하세요 
-                         달콤한 빌리엔젤 케이크를 맛보세요 .</div>
+                    <div id="info">the loges in the design are the property of 
+            their respective owners/copyright holders.</div>
                 </div>
 
                 <ul id="footer_right">
