@@ -135,7 +135,53 @@
                 text-decoration: none;
                 color:rgb(48, 38, 38)
                 
-            }
+            
+        }
+        footer{
+                    background-color: rgb(75, 58, 58);
+                    color: #ccc;
+                    padding: 10px 50px;
+                }
+                footer>div>ul>li{
+                    float:left;
+                    list-style: none;
+                    padding: 0px 10px; /* 상하 좌우 */
+                    border-right: solid 2px gray;
+                }
+                footer>div>ul>li:nth-child(6){
+                    border: none;
+                }
+                footer>div>ul{
+                    padding:0px;
+                }
+                footer>ul>li{
+                    float: left;
+                    list-style: none;
+                    padding: 0px 10px;
+
+
+                }
+                footer>ul{
+                    padding:0px;
+                }
+                #footer_left{
+                    float: left;
+                
+                }
+                #footer_right{
+                    float: right;
+                }
+                #wrap{
+                    /*width: 1200px; /*고정값*/
+                    min-width: 1100px;
+                    max-width: 1920px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                }
+                body{
+                    margin: 0px;
+                }
             
             
         </style>
@@ -295,7 +341,36 @@
                     <li><img src="images/layout2_pic8.jpg"/></li>
                 </ul>
             
-            </section>
+            </section> <br><br>
         </div>
+        <footer>
+            <div id="footer_left">
+                <ul>
+                    <li>Index</li>
+                    <li>layout1</li>
+                    <li>layout2</li>
+                    <li>layout3</li>
+                    <li>billyangle</li>
+                    
+                    <div class="clear"></div>
+                </ul>
+                <div id="copyright">21961021 김유진 콘텐츠 프로그래밍 기말 프로젝트.</div>
+
+                <div id="info">빌리엔젤의 신선하고 깨끗하고 정직한 프로젝트에 참여하세요 
+                     달콤한 빌리엔젤 케이크를 맛보세요 .</div>
+            </div>
+
+            <ul id="footer_right">
+                <li><img src="images/layout1_footer_icon1.png" /></li>
+                
+                <li><img src="images/layout1_footer_icon3.png" /></li>
+                <li><img src="images/layout1_footer_icon4.png" /></li>
+               
+                <li><img src="images/layout1_footer_icon6.png" /></li>
+                <div class="clear"></div>
+            
+            </ul>
+            <div class="clear"></div>
+        </footer>
     </body>
 </html>
